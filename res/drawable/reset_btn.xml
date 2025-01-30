@@ -1,0 +1,7 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/reset_btns_on" android:state_focused="true"/>
+    <item android:drawable="@drawable/reset_btns_on" android:state_pressed="true"/>
+    <item android:drawable="@drawable/reset_btn_off"/>
+
+</selector>

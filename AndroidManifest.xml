@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smaprtapps.designdroid"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.smartapps.designdroid.home.Home"
+            android:label="@string/home_title"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.smartapps.designdroid.home.TestActivity" >
+        </activity>
+        <activity
+            android:name="com.smartapps.designdroid.frames.FrameActivity"
+            android:label="@string/frame_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smartapps.designdroid.main.MainEditor"
+            android:label="@string/editor_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smartapps.designdroid.tools.ToolsEdit"
+            android:label="@string/tools_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smartapps.designdroid.text.TextActivity"
+            android:label="@string/text_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smartapps.designdroid.effects.EffectActivity"
+            android:label="@string/text_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smartapps.designdroid.templates.TemplatesActivity"
+            android:label="@string/temp_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smartapps.designdroid.background.BackgroundActivity"
+            android:label="@string/backg"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smartapps.designdroid.stickers.StikcersActivity"
+            android:label="@string/stk_title"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smartapps.designdroid.shop.PreviewSubCatgeory"
+            android:label="@string/shop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smartapps.designdroid.shop.ShopAllSubCategories"
+            android:label="@string/shop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smartapps.designdroid.shop.ShopMain"
+            android:label="@string/shop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smartapps.designdroid.shop.ShopSubCatgeory"
+            android:label="@string/shop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smartapps.designdroid.shop.ShopDowloadedSubCategories"
+            android:label="@string/shop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smartapps.designdroid.shop.ShopTabs"
+            android:label="@string/shop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smartapps.designdroid.help.HelpActivity"
+            android:label="@string/shop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.smartapps.designdroid.home.AboutActvitiy"
+            android:label="@string/about"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

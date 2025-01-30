@@ -1,0 +1,7 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/small_h_flip_btn" android:state_focused="true"/>
+    <item android:drawable="@drawable/small_h_flip_btn" android:state_pressed="true"/>
+    <item android:drawable="@drawable/h_flip_btn_black"/>
+
+</selector>

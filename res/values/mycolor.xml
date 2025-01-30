@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="toolsbackcolo">#e2561c</color> 
+        <color name="toolsstrokcolor">#405d5d5d</color>
+        <color name="moremenucolor">#B3303030</color>
+        
+ <color name="white">#FFFFFF</color>
+ <color name="yellow">#FFFF00</color>
+ <color name="red">#FF0000</color>
+ <color name="green">#008000</color>
+ <color name="blue">#0000FF</color>
+ <color name="black">#000000</color>
+ 
+<color name="bacgroundcolor">#5d5d5d</color>
+        
+        
+</resources>
